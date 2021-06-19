@@ -14,8 +14,9 @@
 
 ## Implementación
 Al ser un componente de una aplicación como tal, no tiene una instalación específica, más bien se activa o desactiva en la configuración de la aplicación. Previamente, necesitaremos tener un servidor corriendo MongoDB ya sea en la misma máquina o en otra distinta. Instalamos los paquetes con 
-```npm i```, tanto en el backend como en el frontend, y para lanzar dicha aplicación utilizamos en el back ```npm run start```, que al fin y al cabo es un alias para lanzar la aplicación con node. Para el front utilizamos ```ng serve``` que con la opción -o nos abre directamente una pestaña en nuestro navegador con la aplicación.
+```npm i```, tanto en el backend como en el frontend, y para lanzar dicha aplicación utilizamos en el back ```npm run start```, que al fin y al cabo es un alias para lanzar la aplicación con node. Para el front utilizamos ```ng serve``` que con la opción ```-o``` nos abre directamente una pestaña en nuestro navegador con la aplicación.
 
+Para más información sobre el desarrollo y el uso, consultar la [wiki](https://github.com/iesgrancapitan-proyectos/202021daw_junio_nombrepi-rafacab1/wiki)
 
 ## Instrucciones para el desarrollo del Módulo Proyecto Integrado
 
