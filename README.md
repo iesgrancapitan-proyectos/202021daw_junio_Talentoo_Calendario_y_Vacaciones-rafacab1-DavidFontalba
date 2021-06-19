@@ -2,6 +2,7 @@
 
 
 - [Módulo Proyecto Integrado del IES Gran Capitán](#módulo-proyecto-integrado-del-ies-gran-capitán)
+  - [Implementación](#implementacion)
   - [Instrucciones para el desarrollo del Módulo Proyecto Integrado](#instrucciones-para-el-desarrollo-del-módulo-proyecto-integrado)
     - [Obligaciones por parte del alumnado](#obligaciones-por-parte-del-alumnado)
     - [Información que debe aparecer en este README](#información-que-debe-aparecer-en-este-readme)
@@ -10,6 +11,11 @@
   - [Curriculum  Didáctico del Módulo Proyecto Integrado](#curriculum--didáctico-del-módulo-proyecto-integrado)
     - [Objetivos del Módulo](#objetivos-del-módulo)
     - [Evaluación del Proyecto Integrado](#evaluación-del-proyecto-integrado)
+
+## Implementación
+Al ser un componente de una aplicación como tal, no tiene una instalación específica, más bien se activa o desactiva en la configuración de la aplicación. Previamente, necesitaremos tener un servidor corriendo MongoDB ya sea en la misma máquina o en otra distinta. Instalamos los paquetes con 
+```npm i```, tanto en el backend como en el frontend, y para lanzar dicha aplicación utilizamos en el back ```npm run start```, que al fin y al cabo es un alias para lanzar la aplicación con node. Para el front utilizamos ```ng serve``` que con la opción -o nos abre directamente una pestaña en nuestro navegador con la aplicación.
+
 
 ## Instrucciones para el desarrollo del Módulo Proyecto Integrado
 
